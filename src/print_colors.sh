@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-
+#source color
 source colors.sh
 
 # Print messages in different colors
