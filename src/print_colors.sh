@@ -4,8 +4,8 @@
 source colors.sh
 
 # Print messages in different colors
-echo -e "${RED}This is some red text"
-echo -e "${GREEN}And this is some green text"
+echo -e "${RED_3}This is some red text"
+echo -e "${GREEN_3}And this is some green text"
 
 
 # Using a for loop to print  colors 
@@ -22,3 +22,16 @@ done
 }    
 
 afficherCouluers
+
+
+
+# Print messages in different colors
+echo -e "${RED}This is some red text"
+echo -e "${RED_2}This is bold some red text"
+echo -e "${RED_3}This is italic red text"
+echo -e "${RED_4}This is underlined red text"
+echo -e "${RED_5}This is blinking (slow)red text"
+echo -e "${RED_6}This is blinking (fast)) red text"
+
+
+
